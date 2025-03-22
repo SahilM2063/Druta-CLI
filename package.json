@@ -1,0 +1,24 @@
+{
+  "name": "druta-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "drt": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sahil Makadia AKA Sahil Sensei",
+  "license": "ISC",
+  "description": "A CLI tool which helps you to add snippets files for react and next js projects.",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.8.0",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^12.5.0",
+    "nanospinner": "^1.2.2"
+  }
+}
